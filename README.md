@@ -1,60 +1,174 @@
+Python, NumPy & Pandas — Applied Learning & Projects
 
----
+This repository documents my structured self-learning journey in Python along with portfolio-grade applied projects built from first principles.
+The focus is on understanding fundamentals deeply, avoiding black-box abstractions, and writing clear, explainable, production-style code.
 
-## 📝 Projects
+📝 Projects
+1. Customer Transactions Analysis (Pandas Mastery Project)
+Focus
 
-### 1. Credit Risk Scoring Using NumPy
-**Focus:** Statistical analysis, linear algebra, and numerical stability (no black-box ML).  
+End-to-end data analysis using pandas only, progressing from basics to advanced time-series and window-function analytics.
 
-**Problem Statement:**  
-Built an end-to-end credit risk scoring system to understand how correlated financial features impact risk estimation and how numerical instability arises in real-world data.
+Problem Statement
 
-**Key Steps:**
-- **Data Preparation:** Handled NaNs, Z-score normalization, percentile-based outlier clipping.  
-- **Statistical Analysis:** Covariance/correlation matrices, identified feature collinearity.  
-- **Risk Scoring:** Expert-driven weighted scores and linear risk function using matrix–vector multiplication.  
-- **Data-Driven Modeling:** Learned optimal weights with `np.linalg.lstsq`, analyzed residuals and singular values.  
-- **Numerical Stability:** Diagnosed instability with SVD, applied truncated SVD to remove redundant directions.  
-- **Validation:** Correlated expert-defined and data-learned risk scores (~0.95 agreement).
+Analyze a synthetic customer transactions dataset to understand customer behavior, spending patterns, and temporal trends while systematically mastering pandas APIs used in real analytics workflows.
 
-**Key Concepts Demonstrated:**  
-- Numerical linear algebra: least squares, SVD, conditioning  
-- Statistical reasoning: covariance, correlation, normalization  
-- Pure NumPy implementation (no scikit-learn)
+Dataset Overview
 
-**Tools & Stack:**  
-Python, NumPy (linalg, stats), matrix operations, numerical analysis
+Customer ID
 
-**Why This Project Matters:**  
-This project mirrors workflows used in finance and fintech, demonstrating understanding of **why models fail numerically**, not just how to fit them. Suitable for **quantitative, data engineering, or applied math roles**.  
+Name, Surname
 
----
+Gender
 
-### 2. Python Journal
-**Focus:** Self-learning Python from scratch through structured exercises and notes.  
+Birthdate
 
-**Description:**  
-- Daily learning journal tracking Python syntax, data structures, functions, control flow, libraries like NumPy & Pandas, and applied exercises.  
-- Organized by topic in a single notebook (`python_journal.ipynb`) for easy reference.  
-- Useful to demonstrate **continuous learning, problem-solving, and coding discipline**.
+Transaction Amount
 
-**Workflow:**  
-- Updated regularly in Google Colab.  
-- Commits pushed to GitHub to maintain version history and showcase learning progress.  
+Transaction Date
 
----
+Merchant Name
 
-## 🚀 How to Use This Repo
-- Open notebooks in **Google Colab** or **Jupyter**.  
-- Credit Scoring project notebook is self-contained and can be run end-to-end with minimal setup.  
-- Python Journal notebook serves as a reference for learning concepts and exercises.
+Category
 
----
+Key Steps
 
-## 📌 Takeaways
-- Demonstrates applied Python skills, statistical reasoning, and numerical analysis.  
-- Shows ability to build **portfolio-quality projects** without relying on pre-built ML libraries.  
-- Highlights continuous learning and structured problem-solving approach.
+Data Ingestion & Validation:
+CSV loading with dtype control, datetime parsing, duplicate detection, missing-value handling.
 
----
+Data Cleaning & Feature Engineering:
+Boolean masking for invalid transactions, string normalization, categorical optimization, age derivation from birthdate.
 
+Aggregations & Analytics:
+Customer-level and category-level metrics using groupby, agg, size, and value_counts.
+
+Time-Series Analysis:
+Daily / weekly / monthly resampling, trend and seasonality analysis.
+
+Rolling & Window Functions:
+Rolling transaction sums, cumulative spend, transaction ranking per customer, SQL-style analytics using pandas.
+
+Pandas Concepts Demonstrated
+
+Indexing & boolean masking
+
+GroupBy (split–apply–combine)
+
+.size() vs .count() vs .value_counts()
+
+Datetime operations (.dt, resample, rolling windows)
+
+Window functions (rank, cumsum, transform)
+
+MultiIndex handling & pivot tables
+
+Memory optimization using categorical dtypes
+
+Tools & Stack
+
+Python, pandas (only)
+
+Why This Project Matters
+
+This project demonstrates the ability to:
+
+Think in pandas idioms, not loops
+
+Handle realistic transactional data
+
+Apply advanced analytics patterns without external libraries
+
+Suitable for data analyst, data engineering, and analytics-heavy roles.
+
+2. Credit Risk Scoring Using NumPy
+Focus
+
+Statistical analysis, numerical linear algebra, and numerical stability — no black-box ML.
+
+Problem Statement
+
+Built an end-to-end credit risk scoring system to understand how correlated financial features affect risk estimation and how numerical instability arises in real-world datasets.
+
+Key Steps
+
+Data Preparation:
+NaN handling, Z-score normalization, percentile-based outlier clipping.
+
+Statistical Analysis:
+Covariance and correlation matrices, identification of feature collinearity.
+
+Risk Scoring:
+Expert-defined weighted risk scores using matrix–vector multiplication.
+
+Data-Driven Modeling:
+Learned optimal weights using np.linalg.lstsq, analyzed residuals and singular values.
+
+Numerical Stability:
+Diagnosed instability using SVD, applied truncated SVD to remove redundant directions.
+
+Validation:
+High correlation (~0.95) between expert-driven and data-learned risk scores.
+
+Key Concepts Demonstrated
+
+Numerical linear algebra: least squares, SVD, conditioning
+
+Statistical reasoning: covariance, correlation, normalization
+
+Pure NumPy implementation (no scikit-learn)
+
+Tools & Stack
+
+Python, NumPy (linalg, statistics), matrix operations
+
+Why This Project Matters
+
+This mirrors real quantitative finance and fintech workflows, emphasizing why models fail numerically, not just how to fit them.
+Relevant for quant, applied math, data engineering, and research roles.
+
+3. Python Self-Learning Journal
+Focus
+
+Learning Python from first principles, reinforced through hands-on experimentation.
+
+Description
+
+A continuously updated notebook (python_journal.ipynb) documenting:
+
+Core Python syntax
+
+Data structures
+
+Control flow
+
+Functions
+
+NumPy and pandas fundamentals
+
+Serves as a personal knowledge base and learning timeline.
+
+Workflow
+
+Learning done iteratively in Jupyter / Google Colab
+
+Regular commits pushed to GitHub
+
+Emphasis on consistency, clarity, and concept-building
+
+🚀 How to Use This Repository
+
+Open notebooks in Google Colab or Jupyter Notebook
+
+Each project notebook is self-contained and runnable
+
+Python Journal acts as a reference and learning archive
+
+📌 Takeaways
+
+Demonstrates strong Python foundations
+
+Shows applied understanding of NumPy, pandas, and numerical reasoning
+
+Avoids black-box abstractions
+
+Highlights structured self-learning and engineering mindset
