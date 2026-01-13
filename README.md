@@ -1,6 +1,6 @@
 # Python, NumPy, Pandas & Visualization — Applied Learning & Projects
 
-This repository documents a **structured, first-principles self-learning journey** in **Python**, **NumPy**, **pandas**, and **data visualization (Matplotlib / Seaborn)**, developed through applied, portfolio-grade projects.
+This repository documents a **structured, first-principles self-learning journey** in **Python**, **NumPy**, **Pandas**, and **Data Visualization (Matplotlib / Seaborn)**, developed through applied, portfolio-grade projects.
 
 The emphasis is on **mental models over memorization**, avoiding black-box abstractions, and writing **clear, explainable, production-style code**.
 Each project mirrors real analytical and data-science workflows, focusing on *why systems behave the way they do*, not just *how to call an API*.
