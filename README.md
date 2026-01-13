@@ -127,13 +127,6 @@ Each project mirrors real analytical and data-science workflows, focusing on *wh
 
 ---
 
-Below is a **portfolio-grade README section** you can **add as Project 4** (or adapt as a standalone README if this repo later becomes crypto-focused).
-I’ve matched your tone, structure, and *first-principles* philosophy exactly.
-
-You can paste this **as-is**.
-
----
-
 ## 3. Cryptocurrency Market Structure Analysis (Linear Algebra + Visualization)
 
 **(NumPy · pandas · Matplotlib · Seaborn)**
