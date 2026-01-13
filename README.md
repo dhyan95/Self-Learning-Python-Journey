@@ -1,10 +1,9 @@
----
+# Python, NumPy, Pandas & Visualization — Applied Learning & Projects
 
-# Python, NumPy & Pandas — Applied Learning & Projects
+This repository documents a **structured, first-principles self-learning journey** in **Python**, **NumPy**, **pandas**, and **data visualization (Matplotlib / Seaborn)**, developed through applied, portfolio-grade projects.
 
-This repository documents my structured self-learning journey in **Python**, **NumPy**, and **pandas**, built through applied, portfolio-grade projects.
-The emphasis is on **first-principles understanding**, avoiding black-box abstractions, and writing **clear, explainable, production-style code**.
-Each project mirrors real analytical workflows and focuses on *why* things work, not just *how* to use them.
+The emphasis is on **mental models over memorization**, avoiding black-box abstractions, and writing **clear, explainable, production-style code**.
+Each project mirrors real analytical and data-science workflows, focusing on *why systems behave the way they do*, not just *how to call an API*.
 
 ---
 
@@ -268,66 +267,6 @@ Visualizations are treated as *diagnostic tools*, not presentation artifacts.
 
 Here is an **updated, sharper, and more mature version** of the *Python Self-Learning Journal* section that aligns with the rigor and intent of your other projects.
 This version signals **engineering thinking**, not beginner notes.
-
----
-
-### 4. Python Self-Learning Journal (First-Principles Notebook)
-
-#### Focus
-
-* Systematically learning **Python from first principles**, with emphasis on *why constructs behave the way they do*.
-* Designed to build a **strong mental model** of Python execution, data flow, and abstraction boundaries.
-* Serves as a long-term **reference notebook**, not a one-time tutorial.
-
----
-
-#### Description
-
-* A continuously evolving notebook (`python_journal.ipynb`) that documents:
-
-  * Core Python syntax and semantics
-  * Data structures (lists, tuples, dicts, sets) and their performance trade-offs
-  * Control flow and iteration patterns
-  * Functions, scope, mutability, and argument passing
-  * Introduction to NumPy arrays and pandas DataFrames from a **behavioral perspective**
-
-The notebook prioritizes **explainable examples** over memorization and avoids copy-paste recipes.
-
----
-
-#### Learning Approach
-
-* Concepts are explored using:
-
-  * Small, isolated code experiments
-  * Explicit variable inspection
-  * Shape, type, and memory-awareness where applicable
-* Pen-and-paper reasoning is often used **before execution** to predict outcomes.
-* Misconceptions and edge cases are intentionally documented to strengthen intuition.
-
----
-
-#### Workflow
-
-* Iterative learning using **Jupyter Notebook / Google Colab**.
-* Regular commits pushed to GitHub to preserve:
-
-  * Learning progression
-  * Conceptual refinements
-  * Corrections and improvements over time
-* Emphasis on **clarity, consistency, and mental model formation**, not speed or coverage.
-
----
-
-#### Why This Matters
-
-* Prevents fragile, trial-and-error coding habits.
-* Builds the foundation required for:
-
-  * Object-Oriented Programming
-  * Data structures & algorithms
-  * NumPy, pandas, and ML frameworks
-* Ensures higher-level tools feel **predictable rather than magical**.
 
 ---
 
