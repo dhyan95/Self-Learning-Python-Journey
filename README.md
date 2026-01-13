@@ -258,11 +258,6 @@ Visualizations are treated as *diagnostic tools*, not presentation artifacts.
 
 ---
 
-Here is an **updated, sharper, and more mature version** of the *Python Self-Learning Journal* section that aligns with the rigor and intent of your other projects.
-This version signals **engineering thinking**, not beginner notes.
-
----
-
 ## 🚀 How to Use This Repository
 
 * Open notebooks using **Jupyter Notebook** or **Google Colab**.
